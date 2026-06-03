@@ -24,7 +24,7 @@ Output: arimax_forecast_TS10_qol_indices.csv
 import pandas as pd
 import numpy as np
 
-INPUT  = r"C:\Users\emily\Downloads\arimax_forecast_TS10_standardized_long.csv"
+INPUT  = r"C:\Users\emily\Downloads\TS_10_imputed_standardized.csv"
 OUTPUT = r"C:\Users\emily\Downloads\arimax_forecast_TS10_qol_indices.csv"
 
 INDEX_VARS = {

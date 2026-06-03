@@ -15,7 +15,7 @@ from docx.oxml import OxmlElement
 import datetime
 
 # ── Data ──────────────────────────────────────────────────────────────────────
-df = pd.read_csv(r'C:\Users\emily\Downloads\arima_forecast_values_standardized_v3.csv')
+df = pd.read_csv(r'C:\Users\emily\Downloads\arimax_forecast_TS10_qol_indices.csv')
 df = df[df['Year'] <= 2027].copy().reset_index(drop=True)
 df['Pandemic'] = (df['Pandemic'] > 0).astype(int)   # recode to binary: 0=no, 1=yes
 

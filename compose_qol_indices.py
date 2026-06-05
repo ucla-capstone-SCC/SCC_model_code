@@ -6,7 +6,7 @@ Steps per variable group:
   1. Per-year min-max scale each input variable to 0-100
      (data is already direction-adjusted: higher z-score = better)
   2. Equal-weighted average within each intermediate index
-  3. Composite = 0.25 * economic + 0.25 * housing_transport_env
+  3. Composite = 0.25 * economic + 0.25 * housing_transport
                 + 0.25 * healthcare + 0.25 * food
 
 Input variables used (then dropped from output):
